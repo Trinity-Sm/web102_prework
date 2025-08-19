@@ -4,7 +4,7 @@ Submitted by: Trinity S
 
 Sea Monster Games is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 4.5 hours spent in total
+Time spent: 6.5 hours spent in total
 
 ## Required Features
 
@@ -32,7 +32,7 @@ GIF created with Kap   (https://getkap.co/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Few challenges creating the websites, had challenges syncing changes from VS Code to GitHub. There seemed to be a problem server-side that wasnt pushing the changes, but this was fixed by creating a new clone of the repo and then putting the code into that new clone instead.
 
 ## License
 
