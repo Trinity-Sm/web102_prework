@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Press+Start+2P&display=swap');
+
+* {
+    font-family: "Oxanium", sans-serif;
+}
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    background-image: url("assets/oceanBackground.jpeg");
+}
+
+h3 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: .9rem;
 }
 
 #tentacles {
@@ -11,20 +19,29 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background: #ffffff;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(195, 228, 233, 1) 50%, rgba(45, 64, 67, 1) 100%);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: .85rem;
 }
 
 .stats-container {
     display: flex;
+    align-items: left;
+}
+
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px #C3E4E9;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #C3E4E9;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -59,7 +76,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #C3E4E9;
 }
 
 #button-container {
@@ -67,9 +84,37 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #2d4043;
+    justify-content: center;
+    padding: .5%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    gap: 5%;
+}
+
+nav > button {
+    min-width: 8rem;
+    width: 10%;
+    font-weight: 600;
+    padding: .25%;
+    font-size: .8rem;
+    border: outset 4px white;
+    background-color: #C3E4E9;
 }
